@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://top-fon.com/uploads/posts/2021-07/thumbs/1626831803_71-p-krasnii-fon-bez-nichego-na-ves-ekran-75.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #090909;
+    margin-top: 130px;
+}
+.btn-counter {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #1ad50c;
+    position: fixed;
+    inset: 0;
+    margin: 300px;
+    border: 10px solid #322a05;
+    border-radius: 10px ;
+    padding: 100px;
+    line-height: 50px;
+}
+.counter{
+    font-size: 70px;
+    color: #21af7f;
+    margin: 40px 0;
+}
+button{
+    text-decoration: none;
+    padding: 10px 50px;
+    margin: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 10px #435074 inset, 0 0 0 0 #502413;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #9aaf21;
+    transition: .15s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 0 20px 0 #151d32 inset, 0 0 10px 4px #04341b;
+    color: #151d32;
+}
